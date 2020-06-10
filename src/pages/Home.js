@@ -1,4 +1,4 @@
-console Home = () => {
+const Home = () => {
     const view =`
     <div class="Characters">
         <article class="Character-item">
@@ -10,6 +10,6 @@ console Home = () => {
     </div>
     `;
     return view
-}
+};
 
 export default Home;
