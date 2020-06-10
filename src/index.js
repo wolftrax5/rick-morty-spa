@@ -1,1 +1,2 @@
-console.log("wovalovadop dop")
+import router from './routes';
+window.addEventListener('load', router);
