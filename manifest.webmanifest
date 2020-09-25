@@ -1,0 +1,28 @@
+{
+  "icons": [
+    {
+      "src": "icon_192x192.e438c9bc86f7401d8f9db95dad708452.html",
+      "sizes": "192x192",
+      "type": "text/html"
+    },
+    {
+      "src": "icon_128x128.e438c9bc86f7401d8f9db95dad708452.html",
+      "sizes": "128x128",
+      "type": "text/html"
+    },
+    {
+      "src": "icon_96x96.e438c9bc86f7401d8f9db95dad708452.html",
+      "sizes": "96x96",
+      "type": "text/html"
+    }
+  ],
+  "name": "Rick & Morty SPA - App to Prove JS Skils",
+  "short_name": "SPA Vanila JS 👽",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Can find some caracters of this awesome serie",
+  "background_color": "#ffffff",
+  "theme_color": "#79c472",
+  "scope": "/"
+}
