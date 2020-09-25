@@ -50,16 +50,15 @@ module.exports = {
             scope: '/',
             icons: [
               {
-                src: path.resolve('./public/favicon.ico'),
-                sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+                src: './public/index.html',
+                sizes: [96, 128, 192] // multiple sizes
               }
             ]
           }),
         new CopyWebpackPlugin(
             {
-               patterns:[{from: './src/styles/styles.css',
-                to: ''}]
-            },
+               patterns:[{from: './src/styles/styles.css', to: ''}, {from: './src/styles/animations.css', to: ''}]
+            }
         )
     ]
 }
