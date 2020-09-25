@@ -81,8 +81,6 @@ body {
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
-  animation-duration: 2s;
-  animation-name: fade;
 }
 
 .hover-shadow {
@@ -106,8 +104,8 @@ body {
   transition-property: transform opacity;
 }
 .hover-shadow:hover {
-  transform: translateY(-6px);
-  animation-name: hover;
+  transform: translateY(-16px);
+  animation-name: float-hover;
   animation-duration: 1.5s;
   animation-delay: 0.3s;
   animation-timing-function: linear;
@@ -116,8 +114,8 @@ body {
 }
 .hover-shadow:hover:before {
   opacity: 0.4;
-  transform: translateY(6px);
-  animation-name: hover-shadow;
+  transform: translateY(12px);
+  animation-name: float-hover-shadow;
   animation-duration: 1.5s;
   animation-delay: 0.3s;
   animation-timing-function: linear;
@@ -126,8 +124,8 @@ body {
 }
 
 .Characters-item:hover {
-  box-shadow: 8px 14px 38px var(--neon-shadow), inset 1px 3px 8px var(--neon-shadow);
-  animation: fade 3s, neon-border-glitch 4.5s steps(1) infinite;
+  border: 2px solid var(--neon-main);
+  box-shadow: 0px 0px 25px 10px var(--neon-shadow), inset 0px 0px 25px 10px  var(--neon-shadow);
 }
 
 .Characters-item img {
