@@ -25,5 +25,5 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-pwa-manifest": "^4.2.0"
   },
-  "homepage": "https://wolftrax5.github.io/rick-morty-spa/"
+  "homepage": "https://wolftrax5.github.io/rick-morty-spa"
 }
