@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png';
         <div class="Header-main">
             <div class="Header-logo">
                 <h1>
-                    <a href="/">
+                    <a href="https://wolftrax5.github.io/rick-morty-spa/">
                         <img src=${Logo}>
                     </a>
                 </h1>
