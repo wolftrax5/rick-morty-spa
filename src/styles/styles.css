@@ -173,5 +173,5 @@ body {
   padding: 5px 25px;
   text-shadow: 0 0 5px var(--neon-shadow);
   transition: box-shadow .25s ease;
-  animation: neon-text-glitch 3s steps(1) infinite, neon-border-glitch 4.5s steps(1) infinite;
+  animation: neon-text-glitch 2s steps(1) infinite, neon-border-glitch 2.5s steps(1) infinite;
 }
