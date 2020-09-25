@@ -1,3 +1,62 @@
+@keyframes neon-text-glitch {
+	0% {
+	  color: var(--neon-main);
+	  text-shadow: 0 0 5px var(--neon-shadow);
+	}
+	
+	35% {
+	  color: var(--neon-main);
+	  text-shadow: 0 0 5px var(--neon-shadow);
+	}
+	
+	50% {
+	  color: var(--neon-text-glitch);
+	  text-shadow: 0 0 5px var(--neon-shadow-glitch);
+	}
+	
+	55% {
+	  color: var(--neon-main);
+	  text-shadow: 0 0 5px var(--neon-shadow);
+	}
+	
+	70% {
+	  color: var(--neon-text-glitch);
+	  text-shadow: 0 0 5px var(--neon-shadow-glitch);
+	}
+	
+	75% {
+	  color: var(--neon-main);
+	  text-shadow: 0 0 5px var(--neon-shadow);
+	}
+	
+	100% {
+	  color: var(--neon-main);
+	  text-shadow: 0 0 5px var(--neon-shadow);
+	}
+  }
+  
+  @keyframes neon-border-glitch {
+	0% {
+	  border: 3px solid var(--neon-main);
+	  box-shadow: 0px 0px 25px 10px var(--neon-shadow), inset 0px 0px 25px 10px var(--neon-shadow);
+	}
+	
+	50% {
+	  border: 3px solid var(--neon-main-glitch);  
+	  box-shadow: 0px 0px 25px 5px var(--neon-shadow-glitch), inset 0px 0px 25px 5px var(--neon-shadow-glitch);  
+	}
+	
+	55% {
+	  border: 3px solid var(--neon-main);
+	  box-shadow: 0px 0px 25px 10px var(--neon-shadow), inset 0px 0px 25px 10px var(--neon-shadow);
+	}
+	
+	100% {
+	  border: 3px solid var(--neon-main);
+	  box-shadow: 0px 0px 25px 10px var(--neon-shadow), inset 0px 0px 25px 10px var(--neon-shadow);
+	}
+  }
+  
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
